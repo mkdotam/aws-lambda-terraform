@@ -1,0 +1,5 @@
+black==21.8b0
+flake8==3.9.2
+
+-r tests/requirements.txt
+-r src/requirements.txt

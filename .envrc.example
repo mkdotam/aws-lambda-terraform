@@ -1,0 +1,2 @@
+# Please visit this website to setup direnv: https://direnv.net
+export AWS_PROFILE=<profile>
