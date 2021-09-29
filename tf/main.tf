@@ -22,7 +22,7 @@ data "archive_file" "_" {
 
 resource "aws_lambda_function" "_" {
   function_name    = "test-fortune-lambda"
-  description      = "Lambda function to sync geodata on API instances."
+  description      = "Lambda function to show fortune."
   filename         = data.archive_file._.output_path
   source_code_hash = data.archive_file._.output_base64sha256
 
